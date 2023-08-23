@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        let nam = parseInt(prompt("moi nhap vao so nam"));
+        let namNhuan = false;
+
+        if  ( nam % 4 == 0){
+            if (nam % 100 == 0 ){
+                if (nam % 400 == 0){
+                    namNhuan = true;
+                }
+            }
+                else {
+                    namNhuan = false; 
+                }
+            }
+            if (namNhuan) {
+                alert (nam + "là năm nhuận");
+            }
+            else {
+                alert ( nam + " là năm thường");
+            }
+            
+        
+        
+    </script>
+</head>
+
+<body>
+
+</body>
+
+</html>
